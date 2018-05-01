@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer/Search</title>
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Arbutus+Slab|Open+Sans:400,700,800|Roboto+Slab:400,700|Rubik:400,700,900|Zilla+Slab:400,700" rel="stylesheet">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <body>
+	<h1 id="titleTop">Wikipedia  Search</h1>
+	<div class="container-fluid">
+		<div id="flexContainer">
+			<br>
+			<br>
+			
+			<!------Search box -------->	
+			<div class="row" id="searchDiv">
+					<form class="input-group col-xs-6 col-xs-offset-3" id="searchForm">
+						<input type="text" placeholder="search" class="form-control input-lg" id="searchBox">
+						<span class="input-group-btn">
+						<button type="button" class="btn btn-default btn-lg" id="submitz">
+							<i class="glyphicon glyphicon-search"></i>
+						</button>
+					</form>	
+			</div>
+			<br>
+			<br>
+				
+			<!-----random link button ---->
+			<div id="randomLink">
+				<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">
+				<button type="button" class="btn btn-work btn-sm" id="randomButton"><h4>Random Article</h4>
+				</button>
+				</a>
+			</div>	
+			<br>
+			<br>
+			<p>Created by <a href="#" target="_blank">Tyler Glisson</a></p>
+		</div>
+	</div>
+		
+			<!-----Results section ---->
+	<div id="resultsDiv">
+		<article id="articles">
+						
+		</article>
+	</div>
+		
+</body>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

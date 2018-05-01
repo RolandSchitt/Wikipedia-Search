@@ -1,0 +1,78 @@
+body {
+	background-color: grey;
+	text-align: center;
+	overflow: auto;
+}
+#titleTop {
+font-family: 'Roboto Slab', serif;
+	letter-spacing: -2px;
+	font-weight: 800;
+	font-size: 7em;
+	color: white;
+	background-color: #5bc6bc;
+	margin: 0;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.container-fluid {
+	height: 40vh;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	padding: 0;
+	margin: 0 auto;
+
+}
+#flexContainer {
+	align-self: center;
+	margin: 0 auto;
+	padding: 0;
+}
+#searchDiv{
+	text-align: center;
+	margin: auto;
+}
+#searchBox {
+	text-align: center;
+}
+.form-control {
+	color: grey;
+}
+#randomButton {
+	border-radius: 20px;
+	background-color: #f1b812;
+	color: white;
+	font-weight: bold;
+	vertical-align: middle;
+	margin: 0 auto;
+	padding: 1px 9px 1px 9px;
+}
+#randomLink {
+	font-family: 'Rubik', sans-serif;
+}
+#articles {
+	text-align: left;
+}
+a {
+	/*color: #5fcfff;
+	*/
+	color: white;
+}
+h2>a {
+	color: #885a08;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 900;
+}
+article>p {
+	color: white;
+	font-family: 'Rubik', sans-serif;
+
+}
+#resultsDiv {
+	opacity: 0;
+	transition: opacity 2s;
+	text-align: center;
+	padding: 1% 8%;
+	background-color: #ff9b00db;
+}
+	
